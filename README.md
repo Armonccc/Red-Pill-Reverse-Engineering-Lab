@@ -35,7 +35,6 @@ The project performs **environment checks** that may indicate virtualization, su
 
 ## Technologies Used
 
-* Programming Language: *(e.g., C / Python / Assembly — update as needed)*
 * Tools:
 
   * Debuggers -> GDB
