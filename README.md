@@ -44,9 +44,4 @@ The project performs **environment checks** that may indicate virtualization, su
   * Disassemblers -> IDA
   * Virtualization platform -> VirtualBox (Linux Environment)
 
-##Note: This is for educational purposes only!
----
-
-## License
-
-This project is released for **academic and educational use only**.
+Note: This is for educational purposes only!
