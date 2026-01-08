@@ -8,8 +8,7 @@ The goal of this project is **educational**: to understand how virtualization de
 
 A *red pill* is a method that allows a program to determine whether it is executing on:
 
-* A physical machine (bare metal), or
-* A virtualized environment (VM, emulator, sandbox)
+* A physical machine or a virtualized environment (VM, emulator, sandbox)
 
 These techniques are often discussed in:
 
@@ -20,24 +19,15 @@ These techniques are often discussed in:
 
 ## Project Objectives
 
-* Understand common VM and sandbox detection techniques
-* Demonstrate how system-level checks can reveal virtualization
-* Analyze why such techniques are effective
+* Discover the desired passcode
+* Work around both red-pills presented in the file
 * Discuss implications for malware analysis and defensive security
-
-## How It Works (High-Level)
-
-The project performs **environment checks** that may indicate virtualization, such as:
-
-* CPU or system behavior analysis
-* Environment-specific artifacts
-* Hardware or timing characteristics
 
 ## Technologies Used
 
 * Tools:
 
-  * Debuggers -> GDB
-  * Disassemblers -> IDA
+  * Debugger -> GDB
+  * Disassembler -> IDA
   * Virtualization platform -> VirtualBox (Linux Environment)
 
